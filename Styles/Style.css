@@ -1,138 +1,137 @@
 /* Reset CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Noto Sans TC";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC";
 }
 
 /* Body CSS */
-.main-container{
-    display: flex;
-    flex-direction: column;
+.main-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Nav Bar CSS */
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #F2A903;
-    width: 100%;
-    height: 100%;
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f2a903;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
-.logo-container{
-    align-items: center;
+.logo-container {
+  align-items: center;
 }
 
-.navbar > img{
-    width: 4%;
-    height: 100%;
+.navbar > img {
+  width: 4%;
+  height: 100%;
 }
 
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 /* Home / About Us CSS */
-#normal-link{
-    color: white;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 18px 129.3px;
+#normal-link {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 18px 129.3px;
 }
 
-#normal-link a:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+#normal-link a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    z-index: 1;
-  }
-  
-  /* Dropdown button */
-  .navbar .dropdown .dropbtn {
-    font-size: 20px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 18px 129.3px;
-    background-color: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover,
-  .dropdown:hover .dropbtn {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: rgb(244, 245, 241);
-    width: 100%;
-    left: 0;
-    box-shadow: 3px 3px 25px black;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    background-color: rgba(244, 245, 241, 0.8);
-    height: auto;
-    color: rgb(80, 61, 12);
-    font-size: 20px;
-  }
-  
-  /* Adding An Underline For h3 CSS */
-  .column h3 {
-    border-bottom: 3px solid rgb(242, 169, 3);
-    padding-bottom: 10px;
-    margin-bottom: 0;
-  }
-  
-  /* Style links inside the columns */
-  .column a {
-    float: none;
-    color: rgb(82, 62, 13);
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    letter-spacing: 4px;
-  }
-  
-  /* Add a background color on hover */
-  .column a:hover {
-    background-color: rgba(242, 170, 3, 0.4);
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Dropdown button */
+.navbar .dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 129.3px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(244, 245, 241);
+  width: 100%;
+  left: 0;
+  box-shadow: 3px 3px 25px black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: rgba(244, 245, 241, 0.8);
+  height: auto;
+  color: rgb(80, 61, 12);
+  font-size: 20px;
+}
+
+/* Adding An Underline For h3 CSS */
+.column h3 {
+  border-bottom: 3px solid rgb(242, 169, 3);
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: rgb(82, 62, 13);
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  letter-spacing: 4px;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: rgba(242, 170, 3, 0.4);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Content CSS */
 
@@ -211,7 +210,6 @@
   z-index: 0;
 }
 
-
 @keyframes slider {
   0%,
   16%,
@@ -237,7 +235,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #F2A903;
+  background-color: #f2a903;
   width: 100%;
   height: 100%;
 }
@@ -247,7 +245,7 @@
   width: 6%;
 }
 
-.footer > h3{
+.footer > h3 {
   align-self: baseline;
   margin-top: 6px;
   color: white;
@@ -257,7 +255,7 @@
   margin-right: 200px;
 }
 
-.footer > pre{
+.footer > pre {
   align-self: baseline;
   color: white;
   font-size: 20px;
@@ -268,16 +266,16 @@
 
 /* About Us CSS */
 
-.AboutUs-container{
+.AboutUs-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
 }
 
-.AboutUs-container > img{
+.AboutUs-container > img {
   width: 100%;
-  height: 787px; /* Adjust this value as needed */
+  height: 787px;
   object-fit: cover;
 }
 
@@ -303,12 +301,12 @@
 
 /* Business Page CSS */
 
-.Business-Section{
+.Business-Section {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
 }
 
 #Business-text {
@@ -351,7 +349,7 @@
   text-align: center;
   position: relative;
   padding-bottom: 20px;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
 }
 
@@ -381,7 +379,7 @@
   padding-top: 10px;
   padding-bottom: 20px;
   position: relative;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
 }
 
@@ -433,7 +431,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
 }
 
@@ -473,18 +471,18 @@
 }
 
 /* Dummy Link Page CSS */
-.DummyLinkPage-container{
+.DummyLinkPage-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
   padding: 18.8em;
 }
- .DummyLinkPage-container > h1 {
+.DummyLinkPage-container > h1 {
   font-size: 8em;
   text-shadow: 1px 1px 3px black;
 }
@@ -495,7 +493,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -519,39 +517,37 @@
   margin-left: 1%;
 }
 
-
 /* Data table */
 .course-table {
-    width: 98%;
-    margin: 1%;
-    border-collapse: collapse;
-    border: 2px solid black;
+  width: 98%;
+  margin: 1%;
+  border-collapse: collapse;
+  border: 2px solid black;
 }
 
 .course-table thead {
-    background-color: rgb(242, 169, 3);
-    font-size: 1em;
-    text-align: center;
+  background-color: rgb(242, 169, 3);
+  font-size: 1em;
+  text-align: center;
 }
 
 .course-table thead tr {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .course-table thead th {
-    border: 1px solid black;
-    padding: 8px 20px;
+  border: 1px solid black;
+  padding: 8px 20px;
 }
 
 .course-table tbody {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 .course-table tbody td {
-    padding: 8px;
-    border: 1px solid black;
+  padding: 8px;
+  border: 1px solid black;
 }
-
 
 /* Design Course Page CSS */
 
@@ -560,7 +556,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #4F3F17;
+  background-color: #4f3f17;
   color: white;
 }
 
@@ -583,13 +579,482 @@
 }
 
 /* Media Queries */
-@media (max-width: 1239px) {
+
+/* 3xl */
+@media (max-width: 1881px) {
+  .navbar > img {
+    width: 5.4%;
+  }
+
+  #normal-link {
+    font-size: 1.25em;
+    padding: 1.125em 4.6em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1.25em;
+    padding: 1.125em 4.6em;
+  }
+
+  #OurStory-h3 {
+    font-size: 3em;
+    top: 59%;
+    left: 1.4%;
+  }
+
+  #OutStory-text {
+    font-size: 1.25em;
+    top: 69%;
+    left: -2%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 60%;
+    left: 60%;
+  }
+
+  .footer > h3 {
+    margin-right: 100px;
+  }
 }
 
+/* 2xl */
+@media (max-width: 1536px) {
+  #OurStory-h3 {
+    font-size: 3em;
+    top: 59%;
+  }
+
+  #OutStory-text {
+    font-size: 1.016em;
+    top: 69%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 65%;
+    left: 60%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .navbar > img {
+    width: 5.2%;
+  }
+
+  #normal-link {
+    font-size: 1.1em;
+    padding: 1em 5em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1.1em;
+    padding: 1em 5em;
+  }
+
+  #OurStory-h3 {
+    font-size: 3em;
+    top: 59%;
+    left: 0.8%;
+  }
+
+  #OutStory-text {
+    font-size: 0.9em;
+    top: 69%;
+    left: -2.5%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 60%;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .navbar > img {
+    width: 5%;
+  }
+
+  #normal-link {
+    font-size: 1.02em;
+    padding: 0.92em 4.8em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1.02em;
+    padding: 0.92em 4.8em;
+  }
+
+  #text-moto {
+    left: -0.9%;
+  }
+
+  #OurStory-h3 {
+    font-size: 3em;
+    top: 69%;
+    left: 1.5%;
+  }
+
+  #OutStory-text {
+    font-size: 0.85em;
+    top: 78%;
+    left: -1.63%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 65%;
+  }
+
+  .footer {
+    justify-content: space-between;
+    margin: 0%;
+  }
+
+  .footer > pre {
+    margin: 0%;
+    font-size: 1.2em;
+    margin-right: 3%;
+  }
+
+  .footer > h3 {
+    margin: 0%;
+    font-size: 2em;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .navbar > img {
+    width: 6.2%;
+  }
+
+  #normal-link {
+    font-size: 1em;
+    padding: 1em 3.4em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1em;
+    padding: 1em 3.4em;
+  }
+
+  .main-container #text-header {
+    font-size: 4em;
+  }
+
+  .main-container #text-moto {
+    font-size: 1.1em;
+    top: 74%;
+    left: -2%;
+  }
+
+  #OurStory-h3 {
+    font-size: 3em;
+    top: 69%;
+    left: 0.5%;
+  }
+
+  #OutStory-text {
+    font-size: 0.7em;
+    top: 78%;
+    left: -3.5%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 75%;
+    left: 65%;
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .footer > img {
+    width: 8%;
+  }
+
+  .footer > pre {
+    margin: 0%;
+    font-size: 1.2em;
+    margin-right: 4%;
+  }
+
+  .footer > h3 {
+    margin: 0%;
+    font-size: 1.5em;
+  }
+}
+
+/* md */
 @media (max-width: 768px) {
+  .navbar > img {
+    width: 9%;
+  }
 
+  #normal-link {
+    font-size: 1em;
+    padding: 1em 1.7em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1em;
+    padding: 1em 1.7em;
+  }
+
+  #OurStory-h3 {
+    font-size: 0em;
+  }
+
+  #OutStory-text {
+    font-size: 0em;
+  }
+
+  .main-container #text-header {
+    font-size: 3em;
+  }
+
+  .main-container #text-moto {
+    font-size: 0.97em;
+    top: 72%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 85%;
+    left: 67%;
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .footer {
+    font-size: 0.8em;
+  }
+
+  .footer > img {
+    width: 15%;
+  }
 }
 
-@media (max-width: 480px) {
+/* sm */
+@media (max-width: 640px) {
+  .navbar > img {
+    width: 9.9%;
+  }
 
+  #normal-link {
+    font-size: 1em;
+    padding: 1em 1em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 1em;
+    padding: 1em 1em;
+  }
+
+  #OurStory-h3 {
+    font-size: 0em;
+  }
+
+  #OutStory-text {
+    font-size: 0em;
+  }
+
+  .main-container #text-header {
+    font-size: 3em;
+  }
+
+  .main-container #text-moto {
+    font-size: 0.97em;
+    top: 72%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 99%;
+    left: 67%;
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .footer {
+    font-size: 0.596em;
+  }
+
+  .footer > img {
+    width: 19%;
+  }
+
+  /* Data table */
+  .course-table {
+    width: 98%;
+    margin: 1%;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+
+  .course-table thead {
+    background-color: rgb(242, 169, 3);
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .course-table thead tr {
+    border: 2px solid black;
+  }
+
+  .course-table thead th {
+    border: 1px solid black;
+    padding: 8px 20px;
+  }
+
+  .course-table tbody {
+    font-size: 0.6em;
+  }
+
+  .course-table tbody td {
+    padding: 8px;
+    border: 1px solid black;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .navbar > img {
+    width: 9%;
+  }
+
+  #normal-link {
+    font-size: 0.7em;
+    padding: 1em 1.2em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 0.7em;
+    padding: 1em 1.2em;
+  }
+
+  #OurStory-h3 {
+    font-size: 0em;
+  }
+
+  #OutStory-text {
+    font-size: 0em;
+  }
+
+  .main-container #text-header {
+    font-size: 2em;
+  }
+
+  .main-container #text-moto {
+    font-size: 0.9em;
+    top: 69%;
+    left: -5.8%;
+  }
+
+  .Facilities-Section > .slider {
+    top: 108%;
+    left: 67%;
+    width: 30vw;
+    height: 20vh;
+  }
+
+  .footer {
+    font-size: 0.54em;
+    height: 16.5vh;
+  }
+
+  .footer > img {
+    display: none;
+  }
+
+  .footer > pre {
+    margin-top: 8%;
+  }
+
+  .footer > h3 {
+    margin: 0%;
+    font-size: 1.5em;
+  }
+
+  /* Data table */
+  .course-table {
+    width: 98%;
+    margin: 1%;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+
+  .course-table thead {
+    background-color: rgb(242, 169, 3);
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .course-table thead tr {
+    border: 2px solid black;
+  }
+
+  .course-table thead th {
+    border: 1px solid black;
+    padding: 8px 20px;
+  }
+
+  .course-table tbody {
+    font-size: 0.5em;
+  }
+
+  .course-table tbody td {
+    padding: 8px;
+    border: 1px solid black;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar > img {
+    width: 9.17%;
+  }
+
+  #normal-link {
+    font-size: 0.67em;
+    padding: 0.8em 1em;
+  }
+
+  .navbar .dropdown .dropbtn {
+    font-size: 0.67em;
+    padding: 0.8em 1em;
+  }
+
+  .Facilities-Section > .slider {
+    top: 117%;
+    left: 67%;
+    width: 30vw;
+    height: 20vh;
+  }
+
+  /* Data table */
+  .course-table {
+    width: 98%;
+    margin: 1%;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+
+  .course-table thead {
+    background-color: rgb(242, 169, 3);
+    font-size: 0.4em;
+    text-align: center;
+  }
+
+  .course-table thead tr {
+    border: 2px solid black;
+  }
+
+  .course-table thead th {
+    border: 1px solid black;
+    padding: 8px 20px;
+  }
+
+  .course-table tbody {
+    font-size: 0.4em;
+  }
+
+  .course-table tbody td {
+    padding: 8px;
+    border: 1px solid black;
+  }
 }

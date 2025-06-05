@@ -161,47 +161,47 @@
 
             <br>
 
-<!------------------------------------------------------ Database Table PHP + CSS ------------------------------------------------------------------------------------>
+            <!------------------------------------------------------ Database Table PHP + CSS ------------------------------------------------------------------------------------>
 
-        <table class="course-table">
-            <thead>
-                <tr>
-                    <th>Course Title</th>
-                    <th>Course Type</th>
-                    <th>Summary</th>
-                    <th>Award</th>
-                    <th>Required Ucas Points</th>
-                    <th>Study Type</th>
-                </tr>
-            </thead>
+            <table class="course-table">
+                <thead>
+                    <tr>
+                        <th>Course Title</th>
+                        <th>Course Type</th>
+                        <th>Summary</th>
+                        <th>Award</th>
+                        <th>Required Ucas Points</th>
+                        <th>Study Type</th>
+                    </tr>
+                </thead>
 
-            <tbody>
-                <?php
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "cantor_courses";
+                <tbody>
+                    <?php
+                    $servername = "localhost";
+                    $username = "root";
+                    $password = "";
+                    $database = "cantor_courses";
 
-                // connection
-                $connection = new mysqli($servername, $username, $password, $database);
+                    // connection
+                    $connection = new mysqli($servername, $username, $password, $database);
 
-                // check connection
-                if ($connection->connect_error) {
-                    die("Connection failed: " . $connection->connect_error);
-                }
+                    // check connection
+                    if ($connection->connect_error) {
+                        die("Connection failed: " . $connection->connect_error);
+                    }
 
-                // read all row from database table
-                $sql = "SELECT * FROM course_list WHERE CourseTitle LIKE '%Graphic%' OR CourseTitle LIKE '%Interior%' OR CourseTitle LIKE '%Product%' OR CourseTitle LIKE '%Game Design%' OR CourseTitle LIKE '%Jewellery%' OR CourseTitle LIKE '%Digital%'";
-                $result = $connection->query($sql);
+                    // read all row from database table
+                    $sql = "SELECT * FROM course_list WHERE CourseTitle LIKE '%Graphic%' OR CourseTitle LIKE '%Interior%' OR CourseTitle LIKE '%Product%' OR CourseTitle LIKE '%Game Design%' OR CourseTitle LIKE '%Jewellery%' OR CourseTitle LIKE '%Digital%'";
+                    $result = $connection->query($sql);
 
-                // check if query was executed correctly
-                if (!$result) {
-                    die("Invalid query: " . $connection->connect_error);
-                }
+                    // check if query was executed correctly
+                    if (!$result) {
+                        die("Invalid query: " . $connection->connect_error);
+                    }
 
-                // read data of each row
-                while ($row = $result->fetch_assoc()) {
-                    echo "<tr>
+                    // read data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr>
                 <td>" . $row["CourseTitle"] . "</td>
                 <td>" . $row["CourseType"] . "</td>
                 <td>" . $row["CourseSummary"] . "</td>
@@ -209,32 +209,32 @@
                 <td>" . $row["UcasPoints"] . "</td>
                 <td>" . $row["ModeOfAttendance"] . "</td>
             </tr>";
-                }
-                ?>
-            </tbody>
-        </table>
-        <!-- end of main content -->
+                    }
+                    ?>
+                </tbody>
+            </table>
+            <!-- end of main content -->
 
-        <!--  footer -->
-        <div class="footer">
+            <!--  footer -->
+            <div class="footer">
 
-            <img src="../Assets/Images/Favicon.webp" alt="Cantor College Logo" />
+                <img src="../Assets/Images/Favicon.webp" alt="Cantor College Logo" />
 
-            <pre>
+                <pre>
                 Cantor College,
                 Main Street, Sheffield
                 SC4 2BB
             </pre>
 
-            <h3>How To Find Us</h3>
+                <h3>How To Find Us</h3>
 
-            <pre>
+                <pre>
                 Tel: (01321) 2340 235,
                 Fax: (01321) 2340 236,
                 Email: info@cantorcollege.ac.uk
             </pre>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
