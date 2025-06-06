@@ -20,7 +20,7 @@
             <img src="../Assets/Images/logo.webp" alt="Cantor College Logo" />
 
             <div class="nav-links">
-                <a href="HomePage.html" id="normal-link">HOME</a>
+                <a href="index.html" id="normal-link">HOME</a>
 
                 <div class="dropdown">
                     <button class="dropbtn">
